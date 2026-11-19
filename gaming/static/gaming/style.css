@@ -77,3 +77,8 @@ footer {
     padding: 15px;
     color: #aaa;
 }
+
+.hero h1 {
+    font-size: 48px;
+    color: #22c55e;
+}
