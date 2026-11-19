@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #101018;
+    color: white;
+}
+
+nav {
+    background: #1c1c2b;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: #8b5cf6;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #a78bfa;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+    min-height: 65vh;
+}
+
+.hero {
+    text-align: center;
+    padding: 65px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    color: #a78bfa;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 25px;
+    background: #7c3aed;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background: #6d28d9;
+}
+
+.card {
+    background: #1e1e30;
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.games {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+}
+
+footer {
+    text-align: center;
+    background: #1c1c2b;
+    padding: 15px;
+    color: #aaa;
+}
