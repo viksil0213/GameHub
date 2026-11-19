@@ -1,30 +1,33 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #101018;
-    color: white;
+    background: #0a0a0a;
+    color: #f5f5f5;
 }
 
 nav {
-    background: #1c1c2b;
+    background: #151515;
     padding: 20px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 2px solid #b8860b;
 }
 
 nav h2 {
-    color: #8b5cf6;
+    color: #d4a017;
 }
 
 nav a {
     color: white;
     text-decoration: none;
     margin-left: 20px;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
 nav a:hover {
-    color: #a78bfa;
+    color: #d4a017;
 }
 
 main {
@@ -41,28 +44,47 @@ main {
 
 .hero h1 {
     font-size: 42px;
-    color: #a78bfa;
+    color: #d4a017;
+}
+
+.hero p {
+    color: #cccccc;
+    font-size: 18px;
 }
 
 .button {
     display: inline-block;
     margin-top: 20px;
     padding: 14px 25px;
-    background: #7c3aed;
-    color: white;
+    background: #b8860b;
+    color: #000000;
     text-decoration: none;
     border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
 .button:hover {
-    background: #6d28d9;
+    background: #e0b52b;
+    transform: scale(1.05);
 }
 
 .card {
-    background: #1e1e30;
+    background: #181818;
     padding: 25px;
     border-radius: 12px;
     margin-top: 20px;
+    border: 1px solid #66500e;
+    transition: 0.3s;
+}
+
+.card:hover {
+    border-color: #d4a017;
+    transform: translateY(-3px);
+}
+
+.card h2 {
+    color: #d4a017;
 }
 
 .games {
@@ -73,12 +95,8 @@ main {
 
 footer {
     text-align: center;
-    background: #1c1c2b;
+    background: #151515;
     padding: 15px;
-    color: #aaa;
-}
-
-.hero h1 {
-    font-size: 48px;
-    color: #22c55e;
+    color: #999999;
+    border-top: 2px solid #b8860b;
 }
